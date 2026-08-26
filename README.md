@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 
 
 <!--
 **satyarthk2407-tech/satyarthk2407-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
