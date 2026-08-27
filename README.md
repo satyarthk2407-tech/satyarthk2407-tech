@@ -146,6 +146,34 @@ The project is part of my journey to combine **Web Development + Cyber Security 
 
 ---
 
+## 🚀 Featured Projects
+
+### Sage
+
+<p align="center">
+  <img src="./assets/card-Sage-dark.svg" width="700" alt="Sage project">
+</p>
+
+### Socrates
+
+<p align="center">
+  <img src="./assets/card-Socrates-dark.svg" width="700" alt="Socrates project">
+</p>
+
+### Dossier
+
+<p align="center">
+  <img src="./assets/card-dossier-dark.svg" width="700" alt="Dossier project">
+</p>
+
+### humanOS
+
+<p align="center">
+  <img src="./assets/card-humanOS-dark.svg" width="700" alt="humanOS project">
+</p>
+
+---
+
 ## 🚀 Currently Learning
 
 **Java** and expanding my knowledge of:
