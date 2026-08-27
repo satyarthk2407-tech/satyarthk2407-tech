@@ -169,8 +169,6 @@ A cybersecurity project designed to explore keystroke monitoring, detection tech
 
 ---
 
----
-
 ## 📈 GitHub Stats
 
 <p align="center">
