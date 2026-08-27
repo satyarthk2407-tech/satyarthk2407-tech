@@ -45,7 +45,7 @@ jobs:
             --limit 7 \
             --values \
             --curve 0.4 \
-            --exclude "shell,makefile,dockerfile,batchfile,procfile" || true
+            --exclude "powershell,shell,makefile,dockerfile,batchfile,procfile" || true
 
       # Self-hosted stat and repo cards
       - name: Stat and repo cards
