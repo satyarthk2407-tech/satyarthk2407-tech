@@ -39,7 +39,11 @@
 </div>
 
 ---
+## 📊 GitHub Stats
 
+<p align="center">
+  <img src="./assets/radar-langs.svg" width="600">
+</p>
 ## `~/` whoami
 
 ```console
