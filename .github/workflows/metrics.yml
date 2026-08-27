@@ -74,19 +74,447 @@ jobs:
 
 
       # ==========================================
-      # ACHIEVEMENTS
+      # CUSTOM ACHIEVEMENTS
       # ==========================================
 
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: satyarthk2407-tech
-          filename: assets/metrics.achievements.svg
-          base: ""
-          config_timezone: Asia/Kolkata
+      - name: Generate custom achievements
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_USERNAME: satyarthk2407-tech
+        run: |
 
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 0
+          python - <<'PY'
+
+          import json
+          import os
+          import urllib.request
+          import html
+
+          username = os.environ["GITHUB_USERNAME"]
+          token = os.environ["GITHUB_TOKEN"]
+
+          API = "https://api.github.com"
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "User-Agent": "github-profile-achievements"
+          }
+
+
+          def github_get(url):
+
+              request = urllib.request.Request(
+                  url,
+                  headers=headers
+              )
+
+              with urllib.request.urlopen(request) as response:
+                  return json.loads(response.read().decode())
+
+
+          # ------------------------------------------
+          # USER DATA
+          # ------------------------------------------
+
+          user = github_get(
+              f"{API}/users/{username}"
+          )
+
+          public_repos = user.get(
+              "public_repos",
+              0
+          )
+
+          followers = user.get(
+              "followers",
+              0
+          )
+
+
+          # ------------------------------------------
+          # GET REPOSITORIES
+          # ------------------------------------------
+
+          repos = github_get(
+              f"{API}/users/{username}/repos?per_page=100"
+          )
+
+          stars = sum(
+              repo.get("stargazers_count", 0)
+              for repo in repos
+          )
+
+          forks = sum(
+              repo.get("forks_count", 0)
+              for repo in repos
+          )
+
+
+          # ------------------------------------------
+          # PULL REQUESTS
+          # ------------------------------------------
+
+          prs = github_get(
+              f"{API}/search/issues?q=author:{username}+type:pr"
+          )
+
+          pull_requests = prs.get(
+              "total_count",
+              0
+          )
+
+
+          # ------------------------------------------
+          # ISSUES
+          # ------------------------------------------
+
+          issues = github_get(
+              f"{API}/search/issues?q=author:{username}+type:issue"
+          )
+
+          issues_opened = issues.get(
+              "total_count",
+              0
+          )
+
+
+          # ------------------------------------------
+          # ACHIEVEMENTS
+          # ------------------------------------------
+
+          achievements = []
+
+
+          if public_repos >= 1:
+              achievements.append(
+                  ("🚀", "First Repository", "Started the GitHub journey")
+              )
+
+          if public_repos >= 5:
+              achievements.append(
+                  ("📦", "Repository Builder", "Created 5+ public repositories")
+              )
+
+          if public_repos >= 10:
+              achievements.append(
+                  ("🏗️", "Project Builder", "Created 10+ public repositories")
+              )
+
+          if stars >= 1:
+              achievements.append(
+                  ("⭐", "First Star", "Earned the first repository star")
+              )
+
+          if stars >= 10:
+              achievements.append(
+                  ("🌟", "Rising Star", "Earned 10+ repository stars")
+              )
+
+          if stars >= 50:
+              achievements.append(
+                  ("💫", "Star Collector", "Earned 50+ repository stars")
+              )
+
+          if pull_requests >= 1:
+              achievements.append(
+                  ("🔀", "First Pull Request", "Opened the first pull request")
+              )
+
+          if pull_requests >= 10:
+              achievements.append(
+                  ("🛠️", "PR Contributor", "Opened 10+ pull requests")
+              )
+
+          if issues_opened >= 1:
+              achievements.append(
+                  ("🐛", "Issue Hunter", "Opened the first GitHub issue")
+              )
+
+          if followers >= 10:
+              achievements.append(
+                  ("👥", "Growing Community", "Reached 10+ followers")
+              )
+
+          if followers >= 50:
+              achievements.append(
+                  ("🤝", "Community Builder", "Reached 50+ followers")
+              )
+
+          if forks >= 1:
+              achievements.append(
+                  ("🍴", "First Fork", "Received the first repository fork")
+              )
+
+          if forks >= 10:
+              achievements.append(
+                  ("🌱", "Open Source Reach", "Received 10+ repository forks")
+              )
+
+
+          # ------------------------------------------
+          # FALLBACK
+          # ------------------------------------------
+
+          if not achievements:
+
+              achievements.append(
+                  (
+                      "🎯",
+                      "Getting Started",
+                      "Building the GitHub journey"
+                  )
+              )
+
+
+          # Show the most useful achievements first
+          achievements = achievements[-8:]
+
+
+          # ------------------------------------------
+          # SVG
+          # ------------------------------------------
+
+          width = 760
+
+          row_height = 72
+
+          height = 105 + (
+              len(achievements) * row_height
+          )
+
+
+          svg = []
+
+          svg.append(
+              f'<svg xmlns="http://www.w3.org/2000/svg" '
+              f'width="{width}" height="{height}" '
+              f'viewBox="0 0 {width} {height}">'
+          )
+
+          svg.append("""
+          <style>
+            text {
+              font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Helvetica,
+                Arial,
+                sans-serif;
+            }
+
+            .title {
+              fill: #f0f6fc;
+              font-size: 24px;
+              font-weight: 700;
+            }
+
+            .subtitle {
+              fill: #8b949e;
+              font-size: 13px;
+            }
+
+            .achievement {
+              fill: #161b22;
+              stroke: #30363d;
+              stroke-width: 1;
+            }
+
+            .achievement-title {
+              fill: #f0f6fc;
+              font-size: 16px;
+              font-weight: 600;
+            }
+
+            .achievement-description {
+              fill: #8b949e;
+              font-size: 12px;
+            }
+
+            .number {
+              fill: #58a6ff;
+              font-size: 13px;
+              font-weight: 600;
+            }
+          </style>
+          """)
+
+          svg.append("""
+          <rect
+            width="100%"
+            height="100%"
+            rx="12"
+            fill="#0d1117"
+          />
+          """)
+
+          svg.append("""
+          <text
+            x="28"
+            y="38"
+            class="title"
+          >
+            🏆 Achievements
+          </text>
+          """)
+
+          svg.append(
+              f"""
+              <text
+                x="28"
+                y="62"
+                class="subtitle"
+              >
+                GitHub milestones for {html.escape(username)}
+              </text>
+              """
+          )
+
+
+          # ------------------------------------------
+          # ACHIEVEMENT CARDS
+          # ------------------------------------------
+
+          y = 82
+
+          for icon, title, description in achievements:
+
+              svg.append(
+                  f"""
+                  <rect
+                    x="20"
+                    y="{y}"
+                    width="720"
+                    height="60"
+                    rx="10"
+                    class="achievement"
+                  />
+                  """
+              )
+
+              svg.append(
+                  f"""
+                  <text
+                    x="40"
+                    y="{y + 37}"
+                    font-size="25"
+                  >
+                    {html.escape(icon)}
+                  </text>
+                  """
+              )
+
+              svg.append(
+                  f"""
+                  <text
+                    x="82"
+                    y="{y + 27}"
+                    class="achievement-title"
+                  >
+                    {html.escape(title)}
+                  </text>
+                  """
+              )
+
+              svg.append(
+                  f"""
+                  <text
+                    x="82"
+                    y="{y + 47}"
+                    class="achievement-description"
+                  >
+                    {html.escape(description)}
+                  </text>
+                  """
+              )
+
+              y += row_height
+
+
+          # ------------------------------------------
+          # FOOTER STATS
+          # ------------------------------------------
+
+          svg.append(
+              f"""
+              <text
+                x="28"
+                y="{height - 15}"
+                class="number"
+              >
+                {public_repos} repos  •  ⭐ {stars} stars  •  👥 {followers} followers
+              </text>
+              """
+          )
+
+          svg.append("</svg>")
+
+
+          os.makedirs(
+              "assets",
+              exist_ok=True
+          )
+
+          with open(
+              "assets/metrics.achievements.svg",
+              "w",
+              encoding="utf-8"
+          ) as file:
+
+              file.write(
+                  "\n".join(svg)
+              )
+
+          print(
+              "Custom achievements generated successfully."
+          )
+
+          print(
+              f"Repositories: {public_repos}"
+          )
+
+          print(
+              f"Stars: {stars}"
+          )
+
+          print(
+              f"Followers: {followers}"
+          )
+
+          print(
+              f"Pull requests: {pull_requests}"
+          )
+
+          print(
+              f"Issues: {issues_opened}"
+          )
+
+          print(
+              f"Achievements: {len(achievements)}"
+          )
+
+          PY
+
+
+      # ==========================================
+      # COMMIT CUSTOM ACHIEVEMENTS
+      # ==========================================
+
+      - name: Commit custom achievements
+        run: |
+
+          git config user.name "github-actions[bot]"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/metrics.achievements.svg
+
+          if git diff --cached --quiet; then
+            echo "No achievement changes"
+          else
+            git commit -m "update custom achievements"
+            git push
+          fi
