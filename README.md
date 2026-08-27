@@ -171,7 +171,15 @@ A cybersecurity project designed to explore keystroke monitoring, detection tech
 
 ## 🏆 Achievements
 
+<h2>🏆 Achievements</h2>
 
+<p align="center">
+  <img
+    src="assets/metrics.achievements.svg"
+    alt="GitHub Achievements"
+    width="760"
+  >
+</p>
 
 ---
 
