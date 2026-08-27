@@ -145,8 +145,6 @@ A cybersecurity project designed to explore keystroke monitoring, detection tech
   <img src="./assets/metrics.isocalendar.svg" width="700" alt="GitHub contribution calendar">
 </p>
 
-### 💡 Coding Habits
-
 ### 🧑‍💻 Most Used Languages
 
 <p align="center">
