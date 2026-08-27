@@ -1,0 +1,33 @@
+{
+  "title": "Programming Language Radar",
+  "axes": [
+    {
+      "label": "Python",
+      "value": 90
+    },
+    {
+      "label": "C++",
+      "value": 82
+    },
+    {
+      "label": "C",
+      "value": 78
+    },
+    {
+      "label": "HTML",
+      "value": 85
+    },
+    {
+      "label": "Java",
+      "value": 70
+    },
+    {
+      "label": "JavaScript",
+      "value": 60
+    },
+    {
+      "label": "CSS",
+      "value": 55
+    }
+  ]
+}
