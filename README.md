@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="assets/portrait-reveal.gif" width="700" alt="Satyarth Kumar">
+  <img src="assets/portrait-reveal.gif" width="300" alt="Satyarth Kumar">
 </p>
 
 <br>
