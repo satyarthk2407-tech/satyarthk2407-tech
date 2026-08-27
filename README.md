@@ -54,8 +54,6 @@ Currently learning **Java** and building **CyberShield**, a cybersecurity-focuse
 
 ## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack
-
 ### 💻 Programming
 
 <p>
@@ -84,36 +82,6 @@ Currently learning **Java** and building **CyberShield**, a cybersecurity-focuse
 <p>
 <img src="https://img.shields.io/badge/Artificial%20Intelligence-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Artificial Intelligence">
 <img src="https://img.shields.io/badge/Problem%20Solving-111111?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="Problem Solving">
-</p>
-
-### 🌐 Web Development
-
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-</p>
-
-
-### Programming Languages
-
-<p>
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
-</p>
-
-### Web Development
-
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-</p>
-
-### Areas of Interest
-
-<p>
-<img src="https://img.shields.io/badge/Cyber%20Security-111111?style=for-the-badge&logo=hackthebox&logoColor=9FEF00">
-<img src="https://img.shields.io/badge/Artificial%20Intelligence-111111?style=for-the-badge&logo=openai&logoColor=white">
-<img src="https://img.shields.io/badge/Problem%20Solving-111111?style=for-the-badge&logo=leetcode&logoColor=FFA116">
 </p>
 
 ---
