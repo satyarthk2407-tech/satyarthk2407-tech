@@ -81,7 +81,7 @@ Currently learning **Java** and building **CyberShield**, a cybersecurity-focuse
 
 ## 🛡️ CyberShield
 
-**CyberShield** is my current project — a website focused on cybersecurity.
+**CyberShield** is my current project — a cybersecurity-focused website.
 
 The project is part of my journey to combine **Web Development + Cyber Security + AI**.
 
@@ -146,31 +146,25 @@ The project is part of my journey to combine **Web Development + Cyber Security 
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 My Projects
 
-### Sage
+### 🛡️ CyberShield
 
-<p align="center">
-  <img src="./assets/card-Sage-dark.svg" width="700" alt="Sage project">
-</p>
+A cybersecurity-focused web platform designed to provide accessible security resources, awareness, and practical tools while exploring **Web Development + Cyber Security + AI**.
 
-### Socrates
+🚧 **Currently in development**
 
-<p align="center">
-  <img src="./assets/card-Socrates-dark.svg" width="700" alt="Socrates project">
-</p>
+### 🤖 Chatbot
 
-### Dossier
+An intelligent conversational assistant that listens to user queries, conducts relevant research to provide informed responses, and redirects users to appropriate resources or platforms when necessary.
 
-<p align="center">
-  <img src="./assets/card-dossier-dark.svg" width="700" alt="Dossier project">
-</p>
+🚧 **Currently in development**
 
-### humanOS
+### 🔐 Keylogger Security Lab
 
-<p align="center">
-  <img src="./assets/card-humanOS-dark.svg" width="700" alt="humanOS project">
-</p>
+A cybersecurity project designed to explore keystroke monitoring, detection techniques, and the security risks associated with keylogging in a controlled learning environment.
+
+🚧 **Currently in development**
 
 ---
 
