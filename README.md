@@ -213,6 +213,32 @@ Practicing problem solving and developing stronger DSA fundamentals.
 
 ---
 
+## 🎯 What I'm Working Toward
+
+My goal is to grow into a strong **Cyber Security professional and developer** by combining programming, security and emerging technologies.
+
+### 🔐 Build
+
+Create practical cybersecurity projects that solve real problems and strengthen my technical skills.
+
+### 💻 Develop
+
+Improve my programming abilities across **Python, C, C++, HTML and Java** while continuing to build software.
+
+### 🤖 Explore
+
+Learn how **Artificial Intelligence** can be applied to cybersecurity and modern software development.
+
+### 🛡️ Secure
+
+Develop a deeper understanding of secure systems, web security, networking and cybersecurity practices.
+
+### 🚀 Grow
+
+Keep learning, experimenting and building projects that turn ideas into practical solutions.
+
+---
+
 ## 🌱 Goals
 
 * 🛡️ Build useful cybersecurity projects
