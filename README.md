@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/animated.svg" width="300" alt="Satyarth Kumar">
+<img src="assets/portrait.png" width="300" alt="Satyarth Kumar">
 
 <br>
 
