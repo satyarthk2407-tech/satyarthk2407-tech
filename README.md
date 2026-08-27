@@ -79,13 +79,35 @@ Currently learning **Java** and building **CyberShield**, a cybersecurity-focuse
 
 ---
 
-## 🛡️ CyberShield
+## 🛡️ Currently Building — CyberShield
 
-**CyberShield** is my current project — a cybersecurity-focused website.
+<p align="center">
 
-The project is part of my journey to combine **Web Development + Cyber Security + AI**.
+### 🔐 CyberShield
 
-🚧 **Currently in development**
+A cybersecurity-focused web platform built to explore the intersection of:
+
+**Web Development × Cyber Security × AI**
+
+</p>
+
+### 🎯 Vision
+
+CyberShield is being developed as a practical cybersecurity platform focused on making security concepts and resources more accessible.
+
+### 🧩 Focus Areas
+
+* 🛡️ Cyber Security
+* 🌐 Web Security
+* 🤖 AI Integration
+* 🔎 Security Awareness
+* 💻 Web Development
+
+### 🚧 Status
+
+**Currently in development**
+
+More features and functionality will be added as the project evolves.
 
 ---
 
@@ -105,19 +127,19 @@ The project is part of my journey to combine **Web Development + Cyber Security 
 ### 🔥 Contribution Calendar
 
 <p align="center">
-  <img src="./assets/metrics.isocalendar.svg" width="700">
+  <img src="./assets/metrics.isocalendar.svg" width="700" alt="GitHub contribution calendar">
 </p>
 
 ### 💡 Coding Habits
 
 <p align="center">
-  <img src="./assets/metrics.habits.svg" width="700">
+  <img src="./assets/metrics.habits.svg" width="700" alt="Coding habits">
 </p>
 
 ### 🧑‍💻 Most Used Languages
 
 <p align="center">
-  <img src="./assets/metrics.languages.svg" width="700">
+  <img src="./assets/metrics.languages.svg" width="700" alt="Most used programming languages">
 </p>
 
 ### 🕸️ Cyber Security Skill Radar
@@ -126,22 +148,22 @@ The project is part of my journey to combine **Web Development + Cyber Security 
   <img src="./assets/radar-dark.svg" width="700" alt="Cyber Security Skill Radar">
 </p>
 
-### 📈 Language Radar
+### 📈 Programming Language Radar
 
 <p align="center">
-  <img src="./assets/radar-langs-dark.svg" width="700" alt="Language Radar">
+  <img src="./assets/radar-langs-dark.svg" width="700" alt="Programming Language Radar">
 </p>
 
 ### 🏆 Achievements
 
 <p align="center">
-  <img src="./assets/metrics.achievements.svg" width="700">
+  <img src="./assets/metrics.achievements.svg" width="700" alt="GitHub achievements">
 </p>
 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="./assets/card-stats-dark.svg" width="700">
+  <img src="./assets/card-stats-dark.svg" width="700" alt="GitHub statistics">
 </p>
 
 ---
