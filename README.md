@@ -147,10 +147,6 @@ A cybersecurity project designed to explore keystroke monitoring, detection tech
 
 ### 💡 Coding Habits
 
-<p align="center">
-  <img src="./assets/metrics.habits.svg" width="700" alt="Coding habits">
-</p>
-
 ### 🧑‍💻 Most Used Languages
 
 <p align="center">
@@ -177,9 +173,7 @@ A cybersecurity project designed to explore keystroke monitoring, detection tech
 
 ## 🏆 Achievements
 
-<p align="center">
-  <img src="./assets/metrics.achievements.svg" width="700" alt="GitHub achievements">
-</p>
+
 
 ---
 
