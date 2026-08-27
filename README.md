@@ -1,11 +1,13 @@
 <div align="center">
 
 <!-- PORTRAIT -->
+
 <img src="assets/portrait.svg" width="300" alt="Satyarth Kumar">
 
 <br>
 
 <!-- NAME / TAGLINE -->
+
 <a href="https://github.com/satyarthk2407-tech">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=600&lines=Satyarth+Kumar;Cyber+Security+Student;Python+Developer;Java+Learner;Cyber+Security+%26+AI" alt="Typing banner">
@@ -89,12 +91,12 @@ The project is part of my journey to combine **Web Development + Cyber Security 
 
 ## 🎯 Interests
 
-- 💻 Coding
-- 🛡️ Cyber Security
-- 🤖 AI
-- 🏏 Sports
-- ✏️ Sketching
-- 🎨 Crafting
+* 💻 Coding
+* 🛡️ Cyber Security
+* 🤖 AI
+* 🏏 Sports
+* ✏️ Sketching
+* 🎨 Crafting
 
 ---
 
@@ -121,7 +123,13 @@ The project is part of my journey to combine **Web Development + Cyber Security 
 ### 🕸️ Cyber Security Skill Radar
 
 <p align="center">
-  <img src="./assets/radar-dark.svg" width="700">
+  <img src="./assets/radar-dark.svg" width="700" alt="Cyber Security Skill Radar">
+</p>
+
+### 📈 Language Radar
+
+<p align="center">
+  <img src="./assets/radar-langs-dark.svg" width="700" alt="Language Radar">
 </p>
 
 ### 🏆 Achievements
@@ -142,21 +150,21 @@ The project is part of my journey to combine **Web Development + Cyber Security 
 
 **Java** and expanding my knowledge of:
 
-- Cyber Security
-- Artificial Intelligence
-- Web Development
-- Data Structures & Algorithms
+* Cyber Security
+* Artificial Intelligence
+* Web Development
+* Data Structures & Algorithms
 
 ---
 
 ## 🌱 Goals
 
-- Build useful cybersecurity projects
-- Complete and improve CyberShield
-- Become stronger in Java
-- Improve problem-solving skills
-- Explore AI + Cyber Security
-- Keep learning and building
+* Build useful cybersecurity projects
+* Complete and improve CyberShield
+* Become stronger in Java
+* Improve problem-solving skills
+* Explore AI + Cyber Security
+* Keep learning and building
 
 ---
 
