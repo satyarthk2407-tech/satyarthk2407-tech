@@ -28,7 +28,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # Coding habits
+      # Coding habits - facts
       - name: Coding habits
         uses: lowlighter/metrics@latest
         with:
@@ -39,7 +39,7 @@ jobs:
           config_timezone: Asia/Kolkata
           plugin_habits: yes
           plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_habits_charts: no
 
       # Language breakdown
       - name: Languages
