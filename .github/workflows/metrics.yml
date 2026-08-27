@@ -16,7 +16,10 @@ jobs:
 
     steps:
 
-      # 3D isometric contribution calendar
+      # ==========================================
+      # 3D ISOMETRIC CONTRIBUTION CALENDAR
+      # ==========================================
+
       - name: Isometric contribution calendar
         uses: lowlighter/metrics@latest
         with:
@@ -25,10 +28,15 @@ jobs:
           filename: assets/metrics.isocalendar.svg
           base: ""
           config_timezone: Asia/Kolkata
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # Coding habits - facts
+
+      # ==========================================
+      # CODING HABITS
+      # ==========================================
+
       - name: Coding habits
         uses: lowlighter/metrics@latest
         with:
@@ -37,11 +45,18 @@ jobs:
           filename: assets/metrics.habits.svg
           base: ""
           config_timezone: Asia/Kolkata
+
           plugin_habits: yes
+          plugin_habits_from: 100
+          plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: no
 
-      # Language breakdown
+
+      # ==========================================
+      # LANGUAGE BREAKDOWN
+      # ==========================================
+
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
@@ -50,13 +65,18 @@ jobs:
           filename: assets/metrics.languages.svg
           base: ""
           config_timezone: Asia/Kolkata
+
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_indepth: no
           plugin_languages_sections: most-used
 
-      # Achievement badges
+
+      # ==========================================
+      # ACHIEVEMENTS
+      # ==========================================
+
       - name: Achievements
         uses: lowlighter/metrics@latest
         with:
@@ -65,8 +85,8 @@ jobs:
           filename: assets/metrics.achievements.svg
           base: ""
           config_timezone: Asia/Kolkata
+
           plugin_achievements: yes
           plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
