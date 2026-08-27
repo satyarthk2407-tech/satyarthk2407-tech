@@ -39,6 +39,7 @@
 </div>
 
 ---
+
 ## 📊 GitHub Metrics
 
 <p align="center">
@@ -46,16 +47,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/metrics.habits.svg" width="700">
-</p>
-
-<p align="center">
   <img src="./assets/metrics.languages.svg" width="700">
 </p>
 
-<p align="center">
-  <img src="./assets/metrics.achievements.svg" width="700">
-</p>
+---
+
 ## `~/` whoami
 
 ```console
