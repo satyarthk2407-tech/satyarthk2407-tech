@@ -1,0 +1,13 @@
+{
+  "title": "Cyber Security Skill Radar",
+  "_comment": "Self-rated skills for a Cyber Security + Python profile.",
+  "axes": [
+    { "label": "Cyber Security", "value": 90 },
+    { "label": "Python", "value": 88 },
+    { "label": "AI / ML", "value": 78 },
+    { "label": "Networking", "value": 75 },
+    { "label": "Linux", "value": 72 },
+    { "label": "Web Security", "value": 70 },
+    { "label": "DSA", "value": 68 }
+  ]
+}
