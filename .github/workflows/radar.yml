@@ -27,27 +27,26 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Hand-authored skill radar
-      - name: Skill radar
+      # Cyber Security skill radar
+      - name: Cyber Security skill radar
         run: |
           python scripts/radar.py \
             --data assets/skills.json \
-            -o assets/radar
+            -o assets/radar \
+            --values
 
-      # Live radar built from real language byte counts
-      - name: Language radar
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Language / programming skill radar
+      # Uses the same hand-authored skills.json so Java
+      # appears even before there is enough Java code on GitHub.
+      - name: Programming language radar
         run: |
           python scripts/radar.py \
-            --github "${{ github.repository_owner }}" \
+            --data assets/skills.json \
             -o assets/radar-langs \
-            --limit 7 \
-            --values \
-            --curve 0.4 \
-            --exclude "powershell,shell,makefile,dockerfile,batchfile,procfile" || true
+            --title "Programming Language Radar" \
+            --values
 
-      # Self-hosted stat and repo cards
+      # Project cards
       - name: Stat and repo cards
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
@@ -57,7 +56,7 @@ jobs:
             --projects assets/projects.json \
             --out assets
 
-      # Commit generated files
+      # Commit generated charts and cards
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
