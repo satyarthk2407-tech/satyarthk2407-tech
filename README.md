@@ -1,12 +1,8 @@
 <div align="center">
 
-<!-- PORTRAIT -->
-
 <img src="assets/portrait.svg" width="300" alt="Satyarth Kumar">
 
 <br>
-
-<!-- NAME / TAGLINE -->
 
 <a href="https://github.com/satyarthk2407-tech">
 
@@ -15,8 +11,6 @@
 </a>
 
 <br><br>
-
-<!-- SOCIAL LINKS -->
 
 <a href="https://www.linkedin.com/in/satyarth-kr-33000237a/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -86,23 +80,19 @@ Currently learning **Java** and building **CyberShield**, a cybersecurity-focuse
 
 ---
 
-## 🛡️ Currently Building — CyberShield
-
-<p align="center">
+## 🛡️ Currently Building
 
 ### 🔐 CyberShield
 
-A cybersecurity-focused web platform built to explore the intersection of:
+<p align="center">
 
 **Web Development × Cyber Security × AI**
 
 </p>
 
-### 🎯 Vision
+CyberShield is a cybersecurity-focused web platform being developed to make security concepts, resources and practical tools more accessible.
 
-CyberShield is being developed as a practical cybersecurity platform focused on making security concepts and resources more accessible.
-
-### 🧩 Focus Areas
+### 🎯 Focus
 
 * 🛡️ Cyber Security
 * 🌐 Web Security
@@ -110,11 +100,27 @@ CyberShield is being developed as a practical cybersecurity platform focused on 
 * 🔎 Security Awareness
 * 💻 Web Development
 
-### 🚧 Status
+**Status:** 🚧 Currently in development
 
-**Currently in development**
+---
 
-More features and functionality will be added as the project evolves.
+## 🚀 My Projects
+
+### 🤖 Chatbot
+
+An intelligent conversational assistant that listens to user queries, conducts relevant research to provide informed responses, and redirects users to appropriate resources or platforms when necessary.
+
+**Status:** 🚧 Currently in development
+
+---
+
+### 🔐 Keylogger Security Lab
+
+A cybersecurity project designed to explore keystroke monitoring, detection techniques, and the security risks associated with keylogging in a controlled learning environment.
+
+**Status:** 🚧 Currently in development
+
+> This project is intended for controlled cybersecurity learning and security research.
 
 ---
 
@@ -122,7 +128,7 @@ More features and functionality will be added as the project evolves.
 
 * 💻 Coding
 * 🛡️ Cyber Security
-* 🤖 AI
+* 🤖 Artificial Intelligence
 * 🏏 Sports
 * ✏️ Sketching
 * 🎨 Crafting
@@ -149,25 +155,33 @@ More features and functionality will be added as the project evolves.
   <img src="./assets/metrics.languages.svg" width="700" alt="Most used programming languages">
 </p>
 
-### 🕸️ Cyber Security Skill Radar
+---
+
+## 🕸️ Cyber Security Skill Radar
 
 <p align="center">
   <img src="./assets/radar-dark.svg" width="700" alt="Cyber Security Skill Radar">
 </p>
 
-### 📈 Programming Language Radar
+---
+
+## 💻 Programming Language Radar
 
 <p align="center">
   <img src="./assets/radar-langs-dark.svg" width="700" alt="Programming Language Radar">
 </p>
 
-### 🏆 Achievements
+---
+
+## 🏆 Achievements
 
 <p align="center">
   <img src="./assets/metrics.achievements.svg" width="700" alt="GitHub achievements">
 </p>
 
-### 📈 GitHub Stats
+---
+
+## 📈 GitHub Stats
 
 <p align="center">
   <img src="./assets/card-stats-dark.svg" width="700" alt="GitHub statistics">
@@ -175,47 +189,39 @@ More features and functionality will be added as the project evolves.
 
 ---
 
-## 🚀 My Projects
-
-### 🛡️ CyberShield
-
-A cybersecurity-focused web platform designed to provide accessible security resources, awareness, and practical tools while exploring **Web Development + Cyber Security + AI**.
-
-🚧 **Currently in development**
-
-### 🤖 Chatbot
-
-An intelligent conversational assistant that listens to user queries, conducts relevant research to provide informed responses, and redirects users to appropriate resources or platforms when necessary.
-
-🚧 **Currently in development**
-
-### 🔐 Keylogger Security Lab
-
-A cybersecurity project designed to explore keystroke monitoring, detection techniques, and the security risks associated with keylogging in a controlled learning environment.
-
-🚧 **Currently in development**
-
----
-
 ## 🚀 Currently Learning
 
-**Java** and expanding my knowledge of:
+### ☕ Java
 
-* Cyber Security
-* Artificial Intelligence
-* Web Development
-* Data Structures & Algorithms
+Currently learning Java and strengthening my understanding of programming fundamentals and object-oriented programming.
+
+### 🛡️ Cyber Security
+
+Continuously developing my knowledge of cybersecurity concepts, web security and secure systems.
+
+### 🤖 Artificial Intelligence
+
+Exploring how AI can be combined with cybersecurity and software development.
+
+### 🌐 Web Development
+
+Improving my web development skills while building **CyberShield**.
+
+### 🧠 Data Structures & Algorithms
+
+Practicing problem solving and developing stronger DSA fundamentals.
 
 ---
 
 ## 🌱 Goals
 
-* Build useful cybersecurity projects
-* Complete and improve CyberShield
-* Become stronger in Java
-* Improve problem-solving skills
-* Explore AI + Cyber Security
-* Keep learning and building
+* 🛡️ Build useful cybersecurity projects
+* 🔐 Complete and improve CyberShield
+* ☕ Become stronger in Java
+* 🧠 Improve problem-solving skills
+* 🤖 Explore AI + Cyber Security
+* 💻 Build more practical projects
+* 🚀 Keep learning and building
 
 ---
 
@@ -224,5 +230,9 @@ A cybersecurity project designed to explore keystroke monitoring, detection tech
 ### Thanks for visiting my profile!
 
 <img src="https://komarev.com/ghpvc/?username=satyarthk2407-tech&style=for-the-badge&color=39D353" alt="Profile views">
+
+<br><br>
+
+**Keep Learning • Keep Building • Keep Securing**
 
 </div>
