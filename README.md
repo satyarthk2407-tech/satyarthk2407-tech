@@ -39,10 +39,22 @@
 </div>
 
 ---
-## 📊 GitHub Stats
+## 📊 GitHub Metrics
 
 <p align="center">
-  <img src="./assets/radar-langs.svg" width="600">
+  <img src="./assets/metrics.isocalendar.svg" width="700">
+</p>
+
+<p align="center">
+  <img src="./assets/metrics.habits.svg" width="700">
+</p>
+
+<p align="center">
+  <img src="./assets/metrics.languages.svg" width="700">
+</p>
+
+<p align="center">
+  <img src="./assets/metrics.achievements.svg" width="700">
 </p>
 ## `~/` whoami
 
