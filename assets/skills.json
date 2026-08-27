@@ -1,33 +1,33 @@
 {
-  "title": "Programming Language Radar",
+  "title": "Cyber Security Skill Radar",
   "axes": [
     {
-      "label": "Python",
+      "label": "Cyber Security",
       "value": 90
     },
     {
-      "label": "Java",
+      "label": "Python",
+      "value": 88
+    },
+    {
+      "label": "AI / ML",
+      "value": 78
+    },
+    {
+      "label": "Networking",
       "value": 75
     },
     {
-      "label": "C++",
-      "value": 80
+      "label": "Linux",
+      "value": 72
     },
     {
-      "label": "C",
-      "value": 75
+      "label": "Web Security",
+      "value": 70
     },
     {
-      "label": "HTML",
-      "value": 85
-    },
-    {
-      "label": "JavaScript",
-      "value": 65
-    },
-    {
-      "label": "CSS",
-      "value": 60
+      "label": "DSA",
+      "value": 68
     }
   ]
 }
