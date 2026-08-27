@@ -54,6 +54,45 @@ Currently learning **Java** and building **CyberShield**, a cybersecurity-focuse
 
 ## 🛠️ Tech Stack
 
+## 🛠️ Tech Stack
+
+### 💻 Programming
+
+<p>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+</p>
+
+### 📚 Currently Learning
+
+<p>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+</p>
+
+### 🛡️ Cyber Security
+
+<p>
+<img src="https://img.shields.io/badge/Cyber%20Security-111111?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Cyber Security">
+<img src="https://img.shields.io/badge/Web%20Security-111111?style=for-the-badge&logo=owasp&logoColor=white" alt="Web Security">
+<img src="https://img.shields.io/badge/Networking-111111?style=for-the-badge&logo=cisco&logoColor=white" alt="Networking">
+</p>
+
+### 🤖 Areas of Interest
+
+<p>
+<img src="https://img.shields.io/badge/Artificial%20Intelligence-111111?style=for-the-badge&logo=openai&logoColor=white" alt="Artificial Intelligence">
+<img src="https://img.shields.io/badge/Problem%20Solving-111111?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="Problem Solving">
+</p>
+
+### 🌐 Web Development
+
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+</p>
+
+
 ### Programming Languages
 
 <p>
