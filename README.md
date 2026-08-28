@@ -38,7 +38,7 @@
 
 ---
 
-## 👨‍💻 `~/` whoami
+## 👨‍💻 WHO AM I
 
 B.Tech Cyber Security student passionate about programming, cybersecurity and technology.
 
